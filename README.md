@@ -84,13 +84,13 @@ Next we need to run docker-compose exec -it to connect to clickhouse container
 docker-compose exec -it fe593a2b610f bash
 ```
 
-Now we are connected to out clickouse container where we need to launch clickhouse client using next command
+Now we are connected to our clickouse container where we need to launch clickhouse client using next command
 
 ```
 clickhouse-client
 ```
 
-Next step we need to create out 3 tables
+Next step we need to create our 3 tables
 
 ```sql
 CREATE TABLE events (
