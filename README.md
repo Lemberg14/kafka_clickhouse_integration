@@ -146,7 +146,7 @@ Here we need to create and run python script which will send every 5 seconds jso
 
 Create python file
 ```
-nano pyton3.py
+nano python.py
 ```
 And insert script it self
 ```python
@@ -181,7 +181,7 @@ if __name__ == "__main__":
 To run this script execute 
 
 ```
-python3 python3.py
+python3 python.py
 ```
 After running the script back to clickhouse terminal and select from events table
 ```sql
